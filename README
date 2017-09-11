@@ -1,0 +1,2 @@
+这是一个使用hadoop实现用户流量统计功能，在该用例中，键为用户手机号码，值为一个流量对象。运行该程序时需修改FileInputFormat.setInputPath以及FileOutputFormat
+。数据默认至少每一行需11列，否则报数组越界异常。
